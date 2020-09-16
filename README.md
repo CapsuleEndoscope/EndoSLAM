@@ -5,6 +5,10 @@
 
 ## EndoSLAM Dataset Overview
 
+<p align="center">
+  <img src="imgs/ply2.gif" alt="ply" />
+</p>
+
 We introduce an endoscopic SLAM dataset which consists of  standard as well as capsule endoscopy recordings. The dataset is divided into 35 sub-datasets. Specifically, 18, 5 and 12 sub-datasets exist for colon, small intestine and stomach respectively.
 
  - To the best of authors' knowledge, this is the very first dataset published to be used in capsule endoscopy SLAM tasks, with timed 6 DoF pose data and high precision 3D map ground truth
