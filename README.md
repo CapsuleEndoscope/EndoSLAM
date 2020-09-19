@@ -112,14 +112,17 @@ Pretrained models (Endo-SfMLearner) can be downloaded [here!]()
 
 #### 3.2 Pose Estimation
 
-<p align="center">
-  <img src="imgs/unity_rgb_pose.gif" alt="ply" width=320/>
-</p>
+  - The pose trajectories of EndoSfMLearner and state-of-the-art methods on ex-vivo small intestine recording obtained from Low Resolution and High Resolution endoscope cameras and Mirocam capsule camera as follows:
 
 <p align="center">
 <img src='imgs/real_pose.png' width=800/> 
 </p>
 
+  - The pose trajectory on synthetic stomach data acquired in Unity environment as follows: 
+ 
+<p align="center">
+  <img src="imgs/unity_rgb_pose.gif" alt="ply" width=320/>
+</p>
 
 #### 3.3 3D Map Reconstruction
 
