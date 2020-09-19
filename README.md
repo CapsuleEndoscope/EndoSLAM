@@ -103,9 +103,9 @@ Pretrained models (Endo-SfMLearner) can be downloaded [here!]()
 
 <p align="center">
 
-|     Unity       |Endo-SfMLearner | SC-SfMLearner| Monodepth2 | Monodepth2 pretrained | SfMLearner | SfMLearner pretrained |
-|-----------------|----------------|--------------|------------|-----------------------|------------|-----------------------|
-| RMSE(mean,stdev)| 0.3148 , 0.0685|0.3692 , 0.0779|0.3322 , 0.0815|0.4531 , 0.1011|0.8779 , 0.0908|0.4382 , 0.0782|
+|     Unity       |Endo-SfMLearner |Endo-SfM w/o brightness|Endo-SfM w/o attention |SC-SfMLearner| Monodepth2 | Monodepth2 pretrained | SfMLearner | SfMLearner pretrained |
+|-----------------|----------------|----------------|----------------|--------------|------------|-----------------------|------------|-----------------------|
+| RMSE(mean,stdev)| 0.2966 , 0.0622| 0.3288, 0.0608|0.3273, 0.1086 |0.3692 , 0.0779|0.3322 , 0.0815|0.4531 , 0.1011|0.3888 , 0.0711|0.4911 , 0.0831|
 
 
 </p>
