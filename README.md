@@ -9,7 +9,7 @@
   <img src="imgs/ply2.gif" alt="ply" />
 </p>
 
-We introduce an endoscopic SLAM dataset which consists of  standard as well as capsule endoscopy recordings. The dataset is divided into 35 sub-datasets. Specifically, 18, 5 and 12 sub-datasets exist for colon, small intestine and stomach respectively.
+We introduce an endoscopic SLAM dataset which consists of both ex-vivo and synthetically generated data. The ex-vivo part of the dataset includes  standard as well as capsule endoscopy recordings. The dataset is divided into 35 sub-datasets. Specifically, 18, 5 and 12 sub-datasets exist for colon, small intestine and stomach respectively.
 
  - To the best of authors' knowledge, this is the very first dataset published to be used in capsule endoscopy SLAM tasks, with timed 6 DoF pose data and high precision 3D map ground truth
   - Two different capsules and conventional endoscope cameras, with high and low resolution were used, so as to generate variety in camera specifications and lighting conditions. Images from different cameras with various resolutions for same organs and depth for each related organs are further unique features of the proposed dataset. We also provide images and pose values for two types of wireless endoscopes, which differ from each other in certain aspects like camera resolution, frame rate, and diagnostic results for detecting Z-line, duodenal papillae and bleeding.
@@ -19,7 +19,7 @@ The dataset is publicly available in [DropBox](https://www.dropbox.com/sh/l8n581
 
 ### 1. Dataset Shooting
 
-The experimental procedure is demonstrated at [YouTube](https://www.youtube.com/watch?v=G_LCe0aWWdQ).
+The experimental procedure of ex-vivo part of the dataset is demonstrated at [YouTube](https://www.youtube.com/watch?v=G_LCe0aWWdQ). To get information about generation of synthetic data, please visit [Virtaul Capsule Endoscopy](https://github.com/CapsuleEndoscope/VirtualCapsuleEndoscopy) repository.
 
 ### 2. Collection of frames taken on endoscope trajectories
 
