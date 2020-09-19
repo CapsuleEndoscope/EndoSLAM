@@ -113,6 +113,10 @@ Pretrained models (Endo-SfMLearner) can be downloaded [here!]()
 #### 3.2 Pose Estimation
 
 <p align="center">
+  <img src="imgs/unity_rgb_pose.gif" alt="ply" width=320/>
+</p>
+
+<p align="center">
 <img src='imgs/real_pose.png' width=800/> 
 </p>
 
