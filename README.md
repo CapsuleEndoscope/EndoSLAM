@@ -128,7 +128,17 @@ Pretrained models (Endo-SfMLearner) can be downloaded [here!]()
 
 In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of EndoSfMLearner, we compare the results of reconstructions on EndoSfMLearner, SC-SfMLearner and shape from shading method.
 
+<p align="center">
+<img align="center"  src='imgs/3drecons.png' width=800/> 
+</p>
 
+ As an evaluation metric, root mean square error(RMSE) was used.
+ 
+|     Algorithm    | RMSE [cm] |
+|--------------|------------|
+| EndoSfMLearner      | 0.51     | 
+| SC-SfMLearner       | 0.86   | 
+| Shape from Shading      | 0.65     |
 
  
 ## Reference
