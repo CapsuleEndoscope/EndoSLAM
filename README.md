@@ -126,7 +126,7 @@ Pretrained models (Endo-SfMLearner) can be downloaded [here!]()
 
 #### 3.3 3D Map Reconstruction
 
-
+In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of EndoSfMLearner, we compare the results of reconstructions on EndoSfMLearner, SC-SfMLearner and shape from shading method.
 
 
 
