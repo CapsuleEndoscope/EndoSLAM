@@ -1,1 +1,8 @@
+Camera calibration was performed using MATLAB's Camera Calibration App.
+
+Each camera was calibrated for a:
+ - pinhole model, with distortion
+ - fisheye model
+
+The calibration images and the Camera Calibration App session files are provided.
 
