@@ -148,7 +148,7 @@ If you find our work useful in your research or if you use parts of this code pl
 ```
 @article{ozyoruk2020quantitative,
   title={Quantitative Evaluation of Endoscopic SLAM Methods: EndoSLAM Dataset},
-  author={[dataset] Ozyoruk, Kutsev Bengisu and Gokceler, Guliz Irem and Coskun, Gulfize and Incetan, Kagan and Almalioglu, Yasin and Mahmood, Faisal and Curto, Eva and Perdigoto, Luis and others},
+  author={Ozyoruk, Kutsev Bengisu and Gokceler, Guliz Irem and Coskun, Gulfize and Incetan, Kagan and Almalioglu, Yasin and Mahmood, Faisal and Curto, Eva and Perdigoto, Luis and others},
   journal={arXiv preprint arXiv:2006.16670},
   year={2020}
 }
