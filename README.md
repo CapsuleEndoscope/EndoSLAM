@@ -87,7 +87,7 @@ pip3 install -r requirements.txt
 
 ### 2. Pretrained Models
 
-Pretrained models (Endo-SfMLearner) can be downloaded [here!](https://www.dropbox.com/s/92qjxy2uxvf599b/08-13-00%3A00.zip?dl=0)
+Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.dropbox.com/s/92qjxy2uxvf599b/08-13-00%3A00.zip?dl=0)
 
 ### 3. Use-Cases of Endo-SfMLearner with EndoSLAM Dataset
 
