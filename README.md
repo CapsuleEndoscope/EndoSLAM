@@ -74,12 +74,12 @@ Our main contributions are as follows:
 ```bash
 cd ~
 git clone https://github.com/CapsuleEndoscope/EndoSLAM
-cd Endo-SLAM
+cd EndoSLAM
 ```
 
 #### Prerequisities
 
- To use the EndoSFM, you will need to:
+ To use the EndoSFM, you will need to build the environment by following commend:
 
 ```bash
 pip3 install -r requirements.txt
