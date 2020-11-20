@@ -146,11 +146,13 @@ In this work, we propose and evaluate a hybrid 3D reconstruction technique. To e
 If you find our work useful in your research or if you use parts of this code please consider citing our paper:
 
 ```
-@article{ozyoruk2020quantitative,
-  title={Quantitative Evaluation of Endoscopic SLAM Methods: EndoSLAM Dataset},
-  author={Ozyoruk, Kutsev Bengisu and Gokceler, Guliz Irem and Coskun, Gulfize and Incetan, Kagan and Almalioglu, Yasin and Mahmood, Faisal and Curto, Eva and Perdigoto, Luis and others},
-  journal={arXiv preprint arXiv:2006.16670},
-  year={2020}
+@misc{ozyoruk2020endoslam,
+      title={EndoSLAM Dataset and An Unsupervised Monocular Visual Odometry and Depth Estimation Approach for Endoscopic Videos: Endo-SfMLearner}, 
+      author={Kutsev Bengisu Ozyoruk and Guliz Irem Gokceler and Gulfize Coskun and Kagan Incetan and Yasin Almalioglu and Faisal Mahmood and Eva Curto and Luis Perdigoto and Marina Oliveira and Hasan Sahin and Helder Araujo and Henrique Alexandrino and Nicholas J. Durr and Hunter B. Gilbert and Mehmet Turan},
+      year={2020},
+      eprint={2006.16670},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
