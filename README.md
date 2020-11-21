@@ -79,7 +79,7 @@ cd EndoSLAM
 
 #### Prerequisities
 
- To use the EndoSFM, you will need to build the environment by following commend:
+You will need to build the Endo-SFMLearner environment by following commend:
 
 ```bash
 pip3 install -r requirements.txt
@@ -112,7 +112,7 @@ Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.drop
 
 #### 3.2 Pose Estimation
 
-  - The pose trajectories of EndoSfMLearner and state-of-the-art methods on ex-vivo small intestine recording obtained from Low Resolution and High Resolution endoscope cameras and Mirocam capsule camera as follows:
+  - The pose trajectories of Endo-SfMLearner and state-of-the-art methods on ex-vivo small intestine recording obtained from Low Resolution and High Resolution endoscope cameras and Mirocam capsule camera as follows:
 
 <p align="center">
 <img src='imgs/real_pose.png' width=800/> 
@@ -126,7 +126,7 @@ Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.drop
 
 #### 3.3 3D Map Reconstruction
 
-In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of EndoSfMLearner, we compare the results of reconstructions on EndoSfMLearner, SC-SfMLearner and shape from shading method.
+In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of Endo-SfMLearner, we compare the results of reconstructions on Endo-SfMLearner, SC-SfMLearner and shape from shading method.
 
 <p align="center">
 <img align="center"  src='imgs/3drecons.png' width=800/> 
