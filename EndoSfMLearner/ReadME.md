@@ -1,5 +1,26 @@
 After installation and environment building is completed, one can follow the the below steps to train and test. 
 
+#### Datasets
+The data used for training are expected to be organized as follows:
+```bash
+Data_Path                # DIR_TO_TRAIN_DATASET
+ ├──  train_dataset
+ |      ├── cam.txt      #camera calibration parameters
+ |      ├── 1.jpg
+ |      ├── 2.jpg
+ |      ├── ...
+ ├──  validation_dataset     
+ |      ├── cam.txt      #camera calibration parameters
+ |      ├── 1.jpg
+ |      ├── 2.jpg
+ |      ├── ...
+ ├──  train.txt #including the folder names for training dataset
+ └──  val.txt   #including the folder names for validation dataset
+
+```
+
+
+
 #### Training
 
  To use the Endo-SfMLearner, you will need to build the environment by following commend:
