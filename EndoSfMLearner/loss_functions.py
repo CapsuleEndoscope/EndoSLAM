@@ -46,10 +46,7 @@ class SSIM(nn.Module):
 compute_ssim_loss = SSIM().to(device)
 
 
-# photometric loss
-# geometry consistency loss
 
-#### Our addition
 def brightnes_equator(source,target):
 	def image_stats(image):
 	  # compute the mean and standard deviation of each channel
@@ -160,7 +157,7 @@ def compute_pairwise_loss(tgt_img, ref_img, tgt_depth, ref_depth, pose, intrinsi
 
     #print("ref_image_warped",ref_img_warped.shape)
 
-    ref_img_warped2 = brightnes_equator(ref_img_warped,tgt_img)   #### Our addition
+    ref_img_warped2 = brightnes_equator(ref_img_warped,tgt_img)  
 
     torch.save(ref_img_warped2,"ref_im_warped2.pt")
 
@@ -175,7 +172,7 @@ def compute_pairwise_loss(tgt_img, ref_img, tgt_depth, ref_depth, pose, intrinsi
         valid_mask = auto_mask
 
     if with_ssim == True:
-        ssim_map = compute_ssim_loss(tgt_img, ref_img_warped2)  #### Our addition
+        ssim_map = compute_ssim_loss(tgt_img, ref_img_warped2)  
         diff_img = (0.15 * diff_img + 0.85 * ssim_map)
 
     if with_mask == True:
