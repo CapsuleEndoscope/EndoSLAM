@@ -15,7 +15,7 @@ We introduce an endoscopic SLAM dataset which consists of both ex-vivo and synth
   - Two different capsules and conventional endoscope cameras, with high and low resolution were used, so as to generate variety in camera specifications and lighting conditions. Images from different cameras with various resolutions for same organs and depth for each related organs are further unique features of the proposed dataset. We also provide images and pose values for two types of wireless endoscopes, which differ from each other in certain aspects like camera resolution, frame rate, and diagnostic results for detecting Z-line, duodenal papillae and bleeding.
   - Some of the sub-datasets include the same trajectories in two versions, e.g with and without polyps so that effect of having polyps as distinguishable features in the organ environment can be analysed, as well. 
   
-Sample trajectories from each organ is publicly available in [DropBox](https://www.dropbox.com/s/nxqzfggljze68bg/EndoSLAM.zip?dl=0).
+Sample trajectories from each organ is publicly available in [DropBox](https://www.dropbox.com/s/79q6sitk9w1hepz/EndoSLAM.zip?dl=0).
 
 ### 1. Dataset Shooting
 
