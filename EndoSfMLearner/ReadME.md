@@ -23,7 +23,7 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 
 #### Training
 
- To use the Endo-SfMLearner, you will need to build the environment by following commend:
+ One can start training by following commend:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train.py DIR_TO_TRAIN_DATASET --name DIR_TO_MODELS
