@@ -121,7 +121,7 @@ Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.drop
   - The pose trajectory on synthetic stomach data acquired in Unity environment as follows: 
  
 <p align="center">
-  <img src="imgs/unity_rgb_pose.gif" alt="ply" width=320/>
+  <img src="imgs/unity_rgb_pose_new.gif" alt="ply" width=320/>
 </p>
 
 #### 3.3 3D Map Reconstruction
