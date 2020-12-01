@@ -25,7 +25,7 @@ Tsai-Shah shape from shading method, EndoSfMLearner and SC-SfMLearner models wer
 To reconstruct .ply file, run the following instructions:  
 
 ```bash
-run depth.m 
+run depth.m  % You can specify the path of stitched image to be used for reconstruction inside the depth.m file! 
 python points.py 
 run create_ply.m
 ```
