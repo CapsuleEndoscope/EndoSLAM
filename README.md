@@ -126,13 +126,13 @@ Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.drop
 
 #### 3.3 3D Map Reconstruction
 
-In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of Endo-SfMLearner, we compare the results of reconstructions on Endo-SfMLearner, SC-SfMLearner and shape from shading method.
+In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of Endo-SfMLearner, we compare the results of reconstructions on Endo-SfMLearner, SC-SfMLearner and shape from shading method in terms of root mean square error(RMSE).
 
 <p align="center">
 <img align="center"  src='imgs/3drecons.png' width=800/> 
 </p>
 
- As an evaluation metric, root mean square error(RMSE) was used.
+ 
  
 |     Algorithm    | RMSE [cm] |
 |--------------|------------|
