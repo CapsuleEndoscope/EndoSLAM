@@ -85,13 +85,11 @@ You will need to build the Endo-SFMLearner environment by following commend:
 pip3 install -r requirements.txt
 ```
 
-### 2. Pretrained Models
 
-Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.dropbox.com/s/92qjxy2uxvf599b/08-13-00%3A00.zip?dl=0)
 
-### 3. Use-Cases of Endo-SfMLearner with EndoSLAM Dataset
+### 2. Use-Cases of Endo-SfMLearner with EndoSLAM Dataset
 
-#### 3.1 Depth Estimation
+#### 2.1 Depth Estimation
 
 <p align="center">
 <img src='imgs/real_stom_depth_fig.png' width=800/> 
@@ -110,7 +108,7 @@ Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.drop
 
 </p>
 
-#### 3.2 Pose Estimation
+#### 2.2 Pose Estimation
 
   - The pose trajectories of Endo-SfMLearner and state-of-the-art methods on ex-vivo small intestine recording obtained from Low Resolution and High Resolution endoscope cameras and Mirocam capsule camera as follows:
 
@@ -124,7 +122,7 @@ Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.drop
   <img src="imgs/unity_rgb_pose_new.gif" alt="ply" width=320/>
 </p>
 
-#### 3.3 3D Map Reconstruction
+#### 2.3 3D Map Reconstruction
 
 In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of Endo-SfMLearner, we compare the results of reconstructions on Endo-SfMLearner, SC-SfMLearner and shape from shading method in terms of root mean square error(RMSE).
 
