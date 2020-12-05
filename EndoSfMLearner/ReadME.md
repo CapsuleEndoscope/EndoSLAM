@@ -41,3 +41,7 @@ To test the DispNet:
 ```bash
 python test_disp.py --pretrained-dispnet  DIR_TO_PRETRAINED_MODEL --dataset-dir DIR_TO_TEST_DATASET --output-dir DIR_TO_RESULTS
 ```
+
+### Pretrained Models
+
+Pretrained models for Endo-SfMLearner can be downloaded [here!](https://www.dropbox.com/s/92qjxy2uxvf599b/08-13-00%3A00.zip?dl=0)
