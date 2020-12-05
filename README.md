@@ -85,7 +85,7 @@ You will need to build the Endo-SFMLearner environment by following commend:
 pip3 install -r requirements.txt
 ```
 
-
+For the details of EndoSfM-Learner, please check the "EndoSfMLearner" folder.
 
 ### 2. Use-Cases of Endo-SfMLearner with EndoSLAM Dataset
 
