@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Histograms</title>
+    <meta content="1" >
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  </head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    p{
+      text-align: center;
+    }
+    .topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+  </style>
+  <body>
+    <div id="menu" class="topnav">
+      <a id="fps1" class="active" href="#fps1" onclick="myFunction1()">FPS 1</a>
+      <a id="fps4" class="" href="#fps4" onclick="myFunction4()">FPS 4</a>
+      <a id="fps20" class="" href="#fps20" onclick="myFunction20()">FPS 20</a>
+      <div id="types">
+        <a id="tr" style="text-align: right;" class="active"  href="#trans" >Consecutive Translational Differences Histograms</a>
+        <a id="rot" style="text-align: right;" href="#rotational" >Consecutive Rotational Differences Histograms</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div style="padding-top: 60px;" class="main" id="trans">
+    <h2>Consecutive Translational Differences Histograms</h2>
+    <h5>Organ: Colon, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/colon_high_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/colon_high_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/colon_high_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/colon_high_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/colon_high_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/colon_high_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Colon, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/colon_low_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/colon_low_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/colon_low_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/colon_low_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/colon_low_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/colon_low_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Intestine, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/intestine_high_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/intestine_high_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/intestine_high_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/intestine_high_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/intestine_high_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/intestine_high_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Intestine, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/intestine_low_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/intestine_low_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/intestine_low_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/intestine_low_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/intestine_low_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/intestine_low_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-I, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-I_high_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-I_high_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-I_high_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-I_high_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-I_high_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-I_high_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-I, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-I_low_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-I_low_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-I_low_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-I_low_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-I_low_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-I_low_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-II, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-II_high_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-II_high_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-II_high_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-II_high_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-II_high_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-II_high_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-II, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-II_low_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-II_low_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-II_low_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-II_low_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-II_low_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-II_low_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+  
+    <h5>Organ: Stomach-III, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-III_high_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-III_high_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-III_high_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-III_high_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-III_high_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-III_high_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-III, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-III_low_Δx_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-III_low_Δx_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-III_low_Δy_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-III_low_Δy_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="dx_dy_dz_histograms/stomach-III_low_Δz_fps1.png">
+              <img src="dx_dy_dz_histograms/stomach-III_low_Δz_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+    <br/><br/><br/> 
+    <div style="padding-top: 60px;" class="main" id="rotational">
+    <h2>Consecutive Rotational Differences Histograms</h2>
+    <h5>Organ: Colon, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/colon_high_Δex_fps1.png">
+              <img src="euler_hist/colon_high_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/colon_high_Δey_fps1.png">
+              <img src="euler_hist/colon_high_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/colon_high_Δez_fps1.png">
+              <img src="euler_hist/colon_high_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Colon, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/colon_low_Δex_fps1.png">
+              <img src="euler_hist/colon_low_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/colon_low_Δey_fps1.png">
+              <img src="euler_hist/colon_low_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/colon_low_Δez_fps1.png">
+              <img src="euler_hist/colon_low_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Intestine, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/intestine_high_Δex_fps1.png">
+              <img src="euler_hist/intestine_high_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δx</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/intestine_high_Δey_fps1.png">
+              <img src="euler_hist/intestine_high_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δy</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/intestine_high_Δez_fps1.png">
+              <img src="euler_hist/intestine_high_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δz</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Intestine, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/intestine_low_Δex_fps1.png">
+              <img src="euler_hist/intestine_low_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/intestine_low_Δey_fps1.png">
+              <img src="euler_hist/intestine_low_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/intestine_low_Δez_fps1.png">
+              <img src="euler_hist/intestine_low_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-I, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-I_high_Δex_fps1.png">
+              <img src="euler_hist/stomach-I_high_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-I_high_Δey_fps1.png">
+              <img src="euler_hist/stomach-I_high_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-I_high_Δez_fps1.png">
+              <img src="euler_hist/stomach-I_high_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-I, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-I_low_Δex_fps1.png">
+              <img src="euler_hist/stomach-I_low_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-I_low_Δey_fps1.png">
+              <img src="euler_hist/stomach-I_low_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-I_low_Δez_fps1.png">
+              <img src="euler_hist/stomach-I_low_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-II, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-II_high_Δex_fps1.png">
+              <img src="euler_hist/stomach-II_high_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-II_high_Δey_fps1.png">
+              <img src="euler_hist/stomach-II_high_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-II_high_Δez_fps1.png">
+              <img src="euler_hist/stomach-II_high_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-II, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-II_low_Δex_fps1.png">
+              <img src="euler_hist/stomach-II_low_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-II_low_Δey_fps1.png">
+              <img src="euler_hist/stomach-II_low_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-II_low_Δez_fps1.png">
+              <img src="euler_hist/stomach-II_low_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+  
+    <h5>Organ: Stomach-III, Resolution: High</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-III_high_Δex_fps1.png">
+              <img src="euler_hist/stomach-III_high_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-III_high_Δey_fps1.png">
+              <img src="euler_hist/stomach-III_high_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-III_high_Δez_fps1.png">
+              <img src="euler_hist/stomach-III_high_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <h5>Organ: Stomach-III, Resolution: Low</h5>
+    <table border="1" style="table-layout: fixed;">
+      <tr>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-III_low_Δex_fps1.png">
+              <img src="euler_hist/stomach-III_low_Δex_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δex</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-III_low_Δey_fps1.png">
+              <img src="euler_hist/stomach-III_low_Δey_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δey</p>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p>
+            <a class="link" href="euler_hist/stomach-III_low_Δez_fps1.png">
+              <img src="euler_hist/stomach-III_low_Δez_fps1.png" style="width:300px">
+            </a><br>
+            <p>Δez</p>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div> 
+  </div>
+  </body>
+</html>
+
+<script>
+
+let mainNavLinks = document.querySelectorAll("#tr");
+let mainSections = document.querySelectorAll("#rot");
+
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY - 50;
+
+  mainNavLinks.forEach(link => {
+    let section = document.querySelector(link.hash);
+
+    if (
+      section.offsetTop <= fromTop + 55 &&
+      section.offsetTop + section.offsetHeight > fromTop + 55
+    ) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+});
+
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY - 50;
+
+  mainSections.forEach(link => {
+    let section = document.querySelector(link.hash);
+
+    if (
+      section.offsetTop <= fromTop + 55 &&
+      section.offsetTop + section.offsetHeight > fromTop + 55
+    ) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+});
+
+  function myFunction1() {
+    document.getElementById("fps1").style.backgroundColor = "#4CAF50"; 
+    document.getElementById("fps4").style.backgroundColor = "#333"; 
+    document.getElementById("fps20").style.backgroundColor = "#333"; 
+    var list = document.getElementsByTagName("img");
+    var len =list.length
+    var list2=document.getElementsByClassName("link");
+    for (i=0; i < len; i++) {
+      elem=list[i]
+      a_elem=list2[i]
+      elem.src=elem.src.replace("fps4","fps1")
+      elem.src=elem.src.replace("fps20","fps1")
+      a_elem.setAttribute("href",elem.src)
+    }
+    
+  }
+  function myFunction4() {
+    document.getElementById("fps1").style.backgroundColor = "#333"; 
+    document.getElementById("fps4").style.backgroundColor = "#4CAF50"; 
+    document.getElementById("fps20").style.backgroundColor = "#333"; 
+    var list = document.getElementsByTagName("img");
+    var len =list.length
+    var list2=document.getElementsByClassName("link");
+    for (i=0; i < len; i++) {
+      elem=list[i]
+      a_elem=list2[i]
+      elem.src=elem.src.replace("fps1","fps4")
+      elem.src=elem.src.replace("fps20","fps4")
+      a_elem.setAttribute("href",elem.src)
+    }
+  }
+  function myFunction20() {
+    document.getElementById("fps1").style.backgroundColor = "#333"; 
+    document.getElementById("fps4").style.backgroundColor = "#333"; 
+    document.getElementById("fps20").style.backgroundColor = "#4CAF50"; 
+    var list = document.getElementsByTagName("img");
+    var len =list.length
+    var list2=document.getElementsByClassName("link");
+    for (i=0; i < len; i++) {
+      elem=list[i]
+      a_elem=list2[i]
+      elem=list[i]
+      elem.src=elem.src.replace("fps1","fps20")
+      elem.src=elem.src.replace("fps4","fps20")
+      a_elem.setAttribute("href",elem.src)
+    }
+  }
+</script>
