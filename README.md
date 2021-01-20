@@ -122,9 +122,6 @@ For the details of EndoSfM-Learner, please check the "EndoSfMLearner" folder.
   <img src="imgs/unity_rgb_pose_new.gif" alt="ply" width=320/>
 </p>
 
-<p align="center">
-  <img src="imgs/nerthus.gif" alt="ply" width=320/>
-</p>
 
 #### 2.3 3D Map Reconstruction
 
