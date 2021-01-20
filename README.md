@@ -33,13 +33,14 @@ The ex-vivo and synthetic parts of dataset consist of a total of 42,700 and 21,8
 
 <p align="center">
 
-|     Parts    |# of Frames | FPS  | Resolution |
-|--------------|------------|------|------------|
-| HighCam      | 21,428     | 20   |1280 x 720  | 
-| LowCam       | 17,978     | 20   | 640 x 480  | 
-| Pillcam      | 239        |4 - 35| 256 x 256  | 
-| MiroCam      | 3,055      | 3    | 320 x 320  | 
-| UnityCam     | 21,887     | 30   | 320 x 320  | 
+|     Parts    |# of Frames | FPS  | Resolution  |
+|--------------|------------|------|-------------|
+| HighCam      | 21,428     | 20   |1280 x 720   | 
+| LowCam       | 17,978     | 20   | 640 x 480   | 
+| Pillcam      | 239        |4 - 35| 256 x 256   | 
+| MiroCam      | 3,055      | 3    | 320 x 320   | 
+| UnityCam     | 21,887     | 30   | 320 x 320   | 
+| OlympusCam   | 12,484     | 30   | 1350 x 1080 | 
 </p>
  
 ### 3. Dataset Organization
