@@ -122,6 +122,10 @@ For the details of EndoSfM-Learner, please check the "EndoSfMLearner" folder.
   <img src="imgs/unity_rgb_pose_new.gif" alt="ply" width=320/>
 </p>
 
+<p align="center">
+  <img src="imgs/nerthus.gif" alt="ply" width=320/>
+</p>
+
 #### 2.3 3D Map Reconstruction
 
 In this work, we propose and evaluate a hybrid 3D reconstruction technique. To exemplify the effectiveness of Endo-SfMLearner, we compare the results of reconstructions on Endo-SfMLearner, SC-SfMLearner and shape from shading method in terms of root mean square error(RMSE).
