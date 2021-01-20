@@ -26,7 +26,7 @@ The experimental procedure of ex-vivo part of the dataset is demonstrated at [Yo
 Illustration of recorded frames are as following:
 
 <p align="center">
-<img src='imgs/camsamplesnew4.png' width=800/> 
+<img src='imgs/camsamples.png' width=800/> 
 </p>
 
 The ex-vivo and synthetic parts of dataset consist of a total of 42,700 and 21,887 frames respectively. The specifications of dataset parts recorded from each camera are as follows: 
