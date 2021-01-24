@@ -1,4 +1,4 @@
-# EndoSLAM Dataset and an Unsupervised Monocular Visual Odometry and Depth Estimation Approach for Endoscopic Videos: Endo-SfMLearner
+# EndoSLAM Dataset and an Unsupervised Monocular Visual Odometry and Depth Estimation Approach for Endoscopic Videos
 <p align="center">
 <img align="center"  src='imgs/EndoSLAM_Logo.jpeg' width=456/> 
 </p>
